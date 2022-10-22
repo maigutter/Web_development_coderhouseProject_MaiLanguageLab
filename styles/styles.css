@@ -4,13 +4,13 @@
     margin: 0px;}
 
 body {   
-    background-image: url("../assets/Fondos.png");
+    background-image: url(../assets/elementos/Mesa\ de\ trabajo\ 90.png), url(../assets/elementos/Mesa\ de\ trabajo\ 129\ -\ Copy.png), url(../assets/elementos/Mesa\ de\ trabajo\ 125.png), url(../assets/elementos/Mesa\ de\ trabajo\ 103.png),url(../assets/elementos/circulo\ rojo\ puntos.png),url(../assets/elementos/Mesa\ de\ trabajo\ 94.png),url("../assets/Fondos.png");
     background-color: #cccccc;
-    background-repeat:repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; }
-
+    background-repeat:no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,repeat;
+    background-size: 12%, 11%, 12%, 9%, 11%,8%,cover;
+    background-position: -5% 5%, 103% 40%,-3% 55%, 101% -2%, 103% 80%, 0% 98%, center;
+    background-attachment: scroll, scroll, scroll,scroll, scroll, scroll, fixed;
+    }
 
 /* NavBar */
 nav {
