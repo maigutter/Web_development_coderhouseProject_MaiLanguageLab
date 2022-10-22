@@ -240,9 +240,9 @@ h3 {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);}}
 .button {
-    background-color: #e52524;
+    background-color: #8596DC;
     background-blend-mode: overlay;
-	border: 2px solid #6b0a0a;
+	border: 2px solid #8596DC;
 	color: rgb(237,235,238);
     font-stretch: semi-expanded ;
     letter-spacing: 2;
@@ -256,8 +256,8 @@ h3 {
 }
 
 .button:hover, .button:focus, .button:active {
-    background-color: #6b0a0a;
-    border: 2px solid #6b0a0a ;
+    background-color: #4e5d97;
+    border: 2px solid #4e5d97 ;
     cursor: pointer;
     -webkit-animation-name: hvr-pulse;
     animation-name: hvr-pulse;
@@ -447,9 +447,9 @@ input[type=submit] {
     justify-content: center;
     align-items: center;
     align-self: center;
-    background-color: #e52524;
+    background-color: #8596DC;
     background-blend-mode: overlay;
-	border: 2px solid #6b0a0a;
+	border: 2px solid #8596DC;
 	color: rgb(237,235,238);
     font-stretch: semi-expanded ;
     letter-spacing: 2;
@@ -463,8 +463,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #6b0a0a;
-    border: 2px solid #6b0a0a ;
+    background-color: #4e5d97;
+    border: 2px solid #4e5d97 ;
     cursor: pointer;
     transform:scale(1.1);
     -webkit-animation-name: hvr-pulse;
