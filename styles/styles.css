@@ -224,6 +224,21 @@ h3 {
     margin: 10px 10% 25px 10%;
 }
 
+@-webkit-keyframes hvr-pulse {
+    25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);}
+    75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);}}
+
+@keyframes hvr-pulse {
+    25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);}
+    75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);}}
 .button {
     background-color: #e52524;
     background-blend-mode: overlay;
@@ -240,10 +255,18 @@ h3 {
     
 }
 
-.button:hover {
+.button:hover, .button:focus, .button:active {
     background-color: #6b0a0a;
     border: 2px solid #6b0a0a ;
     cursor: pointer;
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: 3;
 }
 
 
@@ -444,6 +467,14 @@ input[type=submit]:hover {
     border: 2px solid #6b0a0a ;
     cursor: pointer;
     transform:scale(1.1);
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: 3;
 }
 
 .form__label {
