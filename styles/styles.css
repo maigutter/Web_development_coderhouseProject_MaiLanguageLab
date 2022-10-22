@@ -189,6 +189,7 @@ p {
     align-self: center;
 }
 
+/* Information boxes */
 .informationboxes{
     width: 100%;
     height: auto;
@@ -201,17 +202,15 @@ p {
 
 .informationboxes__box {
     width: 30%;
-    height: auto;
+    height: 30%;
     background-color: #e52524;
     opacity: 0.5;
     color: #e3c2f3;
     border-radius: 10px;
     text-align: center;
     padding: 1.5%;
-}
-
-h3 {
-    margin: 1%;
+    font-weight: bold;
+    position: relative;
 }
 
 
