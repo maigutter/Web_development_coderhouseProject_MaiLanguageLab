@@ -10,7 +10,7 @@ body {
     background-size: 12%, 11%, 12%, 9%, 11%,8%,cover;
     background-position: -5% 5%, 103% 40%,-3% 55%, 101% -2%, 103% 80%, 0% 98%, center;
     background-attachment: scroll, scroll, scroll,scroll, scroll, scroll, fixed;
-    }
+}
 
 /* NavBar */
 nav {
@@ -117,11 +117,11 @@ header{
 }
 
 .iconos a:hover {
-        box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
-        outline-color: rgba(255, 255, 255, 0);
-        outline-offset: 15px;
-        text-shadow: 1px 1px 2px #427388; 
-        height: 49px;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+    height: 49px;
 
 }
 
@@ -134,11 +134,11 @@ header{
 }
 
 .pagetitle {
-margin: 10px 0px 25px 0px;
-padding: 0;
-width: 100%;
-height: auto;
-text-align: center; 
+    margin: 10px 0px 25px 0px;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    text-align: center; 
 }
 
 /* Content */
@@ -184,34 +184,34 @@ p {
 }
 
 .video {
-justify-content: center;
-align-items: center;
-align-self: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 .informationboxes{
-width: 100%;
-height: auto;
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-align-items: flex-start;
-justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .informationboxes__box {
-width: 30%;
-height: auto;
-background-color: #e52524;
-opacity: 0.5;
-color: #e3c2f3;
-border-radius: 10px;
-text-align: center;
-padding: 1.5%;
+    width: 30%;
+    height: auto;
+    background-color: #e52524;
+    opacity: 0.5;
+    color: #e3c2f3;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1.5%;
 }
 
 h3 {
-margin: 1%;
+    margin: 1%;
 }
 
 
@@ -275,7 +275,7 @@ footer {
 }
 
 .footer__copy {
-margin: 1% 30% 0 0;
+    margin: 1% 30% 0 0;
 }
 
 .footer__gototop {
@@ -333,6 +333,7 @@ margin: 1% 30% 0 0;
 		opacity: 1;
 	}
 }
+
 @keyframes flash {
 	0% {
 		opacity: .4;
@@ -446,15 +447,15 @@ input[type=submit]:hover {
 }
 
 .form__label {
-padding: 12px 12px 12px 0;
-width: 25%;
-margin:1% 1% 2% 4%;
+    padding: 12px 12px 12px 0;
+    width: 25%;
+    margin:1% 1% 2% 4%;
 }
 
 .form__inputspace {
-float: right;
-width: 75%;
-margin-top: 6px;
+    float: right;
+    width: 75%;
+    margin-top: 6px;
 }
 
 .form__section {
