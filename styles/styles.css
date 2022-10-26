@@ -422,7 +422,8 @@ body {
     .video {
         justify-content: center;
         align-items: center;
-        align-self: center;}}
+        align-self: center;
+        min-width: 100vw;}}
 
 @media screen and (min-width: 600px) {
 p {
@@ -671,8 +672,9 @@ p {
         position:relative;
         overflow: hidden;}
         
-        .footer__gototop {
-            margin: 1% 0 0 0;}}
+    .footer__gototop {
+        margin: 1% 0 0 0;
+        font-size: 2.7vh;}}
 
 @media screen and (min-width: 600px) {
     footer {
@@ -691,8 +693,8 @@ p {
         position:relative;
         overflow: hidden;}
         
-        .footer__gototop {
-            margin: 3% 2% 0 5%;}}
+    .footer__gototop {
+        margin: 3% 2% 0 5%;}}
 
 .footer__sectionlogoycopy {
     display: flex;
