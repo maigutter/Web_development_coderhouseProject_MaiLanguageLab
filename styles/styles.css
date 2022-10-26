@@ -13,80 +13,285 @@ body {
 }
 
 /* NavBar */
-.navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #e52524;
-    position: fixed ;
-    top: 0;
-    width: 100vw;
-    text-align: center;
-    height: 45px;
-}
+@media screen and (max-width: 600px) {
+    .nav_image a {
+        cursor: pointer;}
+    
+    .nav_image img {
+        height: 10vh;
+        width: auto;
+        margin: 1vh 3vh;
+    }
 
-.nav__ul {
-    position:absolute;
-    left: 0;
-    align-items: left;
-    width: 100%;
-    grid-area: nav;
-    display: grid; 
-    grid-template-areas: "home pedagogia comotrabajamos contacto . . . . . . . plataforma";
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-    grid-column-gap: 0vh;
-    overflow: hidden;
-    list-style: none;
-    justify-items: left;
-}
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: right;
+        justify-content: right;
+        background-color: #e52524;
+        position: fixed ;
+        top: 0;
+        width: 100vw;
+        text-align: center;
+        height: auto;}
+    
+    .nav__ul {
+        position:absolute;
+        left: 0;
+        align-items: left;
+        width: 100%;
+        grid-area: nav;
+        display: none; 
+        overflow: hidden;
+        list-style: none;
+        background-color: #e52524;}
+    
+    .navbar:hover .nav__ul {
+        display:flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        width: 100vw;
+        height: auto;
+    }
+    .navbar:focus .nav__ul {
+        display:flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        width: 100vw;
+        height: auto;
+    }
 
-.nav__li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 1vw 2vw;
-    text-decoration: none;
-    align-self: left;
-}
+    .navbar:active .nav__ul {
+        display:flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        width: 100vw;
+        height: auto;
+    }
+    
+    .nav__li {
+        height: auto;
+        font-size: 5vh;
+    }
+    .nav__li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 1vw 2vw;
+        text-decoration: none;
+        align-self: left;}
 
-.nav__li a:hover {
-    background-color: #7f2525;
-    color: white;
-}
+    .nav__li a:hover {
+        background-color: #7f2525;
+        color: white;}
 
-#nav__li__home {
-    grid-area: home;
-}
+    #nav__li__home {
+        grid-area: home;}
 
-#nav__li__pedagogia {
-    grid-area: pedagogia;
-}
+    #nav__li__pedagogia {
+        grid-area: pedagogia;}
 
-#nav__li__comotrabajamos {
-    grid-area: comotrabajamos;
-}
+    #nav__li__comotrabajamos {
+        grid-area: comotrabajamos;}
 
-#nav__li__contacto {
-    grid-area: contacto;
-}
+    #nav__li__contacto {
+        grid-area: contacto;}
 
-#nav__li__plataforma {
-    grid-area: plataforma;
-}
+    #nav__li__plataforma {
+        grid-area: plataforma;
+    }
 
-.active {
-    background-color: #980404;
-    color: #F6cd63 ;
-}
+    .active {
+        background-color: #980404;
+        color: #F6cd63 ;
+    }}
+
+@media screen and (min-width: 600px) {
+    .nav_image {
+        display: none;}
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: #e52524;
+        position: fixed ;
+        top: 0;
+        width: 100vw;
+        text-align: center;
+        height: 45px;}
+
+    .nav__ul {
+        position:absolute;
+        left: 0;
+        align-items: left;
+        width: 100%;
+        grid-area: nav;
+        display: grid; 
+        grid-template-areas: "home pedagogia comotrabajamos contacto . . . . . . . plataforma";
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        grid-column-gap: 0vh;
+        overflow: hidden;
+        list-style: none;
+        justify-items: left;}
+
+    .nav__li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 1vw 2vw;
+        text-decoration: none;
+        align-self: left;}
+
+    .nav__li a:hover {
+        background-color: #7f2525;
+        color: white;}
+
+    #nav__li__home {
+        grid-area: home;}
+
+    #nav__li__pedagogia {
+        grid-area: pedagogia;}
+
+    #nav__li__comotrabajamos {
+        grid-area: comotrabajamos;}
+
+    #nav__li__contacto {
+        grid-area: contacto;}
+
+    #nav__li__plataforma {
+        grid-area: plataforma;
+    }
+
+    .active {
+        background-color: #980404;
+        color: #F6cd63 ;
+    }}
+
+@media screen and (min-width: 820px) {
+    .nav_image {
+        display: none;}
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #e52524;
+        position: fixed ;
+        top: 0;
+        width: 100vw;
+        text-align: center;
+        height: 45px;}
+
+    .nav__ul {
+        position:absolute;
+        left: 0;
+        align-items: left;
+        width: 100%;
+        grid-area: nav;
+        display: grid; 
+        grid-template-areas: "home pedagogia comotrabajamos contacto . . . . . . . plataforma";
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        grid-column-gap: 0vh;
+        overflow: hidden;
+        list-style: none;
+        justify-items: left;}
+
+    .nav__li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 1vw 2vw;
+        text-decoration: none;
+        align-self: left;}
+
+    .nav__li a:hover {
+        background-color: #7f2525;
+        color: white;}
+
+    #nav__li__home {
+        grid-area: home;}
+
+    #nav__li__pedagogia {
+        grid-area: pedagogia;}
+
+    #nav__li__comotrabajamos {
+        grid-area: comotrabajamos;}
+
+    #nav__li__contacto {
+        grid-area: contacto;}
+
+    #nav__li__plataforma {
+        grid-area: plataforma;
+    }
+
+    .active {
+        background-color: #980404;
+        color: #F6cd63 ;
+    }}
 
 /* Header */
+@media screen and (max-width: 600px) {
+    header{
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+        min-height: 450px;
+        height: auto;
+        object-fit: contain;
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    .header__pagetitle {
+        width: 100%;
+        text-align: flex-start;
+        align-self: center;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    
+    .header__pagetitle h1 {
+        width: 100%;
+        white-space: nowrap;
+        font-size: 4vh;
+    }
+    
+    .header__logo {
+        position:absolute;
+        left:0px;
+        top:0px;
+        z-index:-1;
+        min-width: 336px;
+        max-width: 100%;
+        width: 100%;
+        min-height: 450px;
+        height: 450px;
+        object-fit: contain;
+    }
+    
+    .header__pagetitle{
+        text-align: center;
+        justify-content: center;
+        margin: 1%;
+        width: 50%;
+    } }
+
+@media screen and (min-width: 600px) {
 header{
-    min-width: 336px;
+    min-width: 100%;
     max-width: 100%;
     width: 100%;
     min-height: 450px;
-    height: 450px;
+    height: auto;
     object-fit: contain;
     margin: 0%;
     padding: 0%;
@@ -94,7 +299,17 @@ header{
     flex-direction: column;
     justify-content:flex-end;
     align-items: center;
+    flex-wrap: nowrap;
+}
 
+.header__pagetitle {
+    width: 100%;
+    text-align: center;
+}
+
+.header__pagetitle h1 {
+    width: 100%;
+    white-space: nowrap;
 }
 
 .header__logo {
@@ -115,7 +330,7 @@ header{
     justify-content: center;
     margin: 1%;
     width: 50%;
-}
+} }
 
 .iconos{
     margin: 0;
@@ -172,6 +387,43 @@ body {
     flex-direction: column;
 }
 
+@media screen and (max-width: 600px) {
+    p {
+        background-color: rgb(237,235,238);
+        background-blend-mode: lighten ;
+        border-radius: 20px;
+        text-align: justify;
+        width: 100%;
+        height: auto;
+        padding: 2% ;
+        line-height:  1.8;
+        font-weight: bolder;
+        letter-spacing: 1px ;
+        line-height: 1.5;
+        word-spacing: 3px ;
+        font-size: 2.8vh;}
+    
+    .home__p {
+        background-color: rgb(237,235,238);
+        background-blend-mode: lighten ;
+        border-radius: 20px;
+        text-align: justify;
+        width: 100%;
+        height: auto;
+        padding: 2% ;
+        line-height:  1.8;
+        font-weight: bolder;
+        letter-spacing: 1px ;
+        line-height: 1.5;
+        word-spacing: 3px ;
+        text-indent: 10%;}
+    
+    .video {
+        justify-content: center;
+        align-items: center;
+        align-self: center;}}
+
+@media screen and (min-width: 600px) {
 p {
     background-color: rgb(237,235,238);
     background-blend-mode: lighten ;
@@ -186,7 +438,7 @@ p {
     letter-spacing: 1px ;
     line-height: 1.5;
     word-spacing: 3px ;
-}
+    font-size: 2.6vh;}
 
 .home__p {
     background-color: rgb(237,235,238);
@@ -202,14 +454,12 @@ p {
     letter-spacing: 1px ;
     line-height: 1.5;
     word-spacing: 3px ;
-    text-indent: 10%;
-}
+    text-indent: 10%;}
 
 .video {
     justify-content: center;
     align-items: center;
-    align-self: center;
-}
+    align-self: center;}}
 
 /* Information boxes */
 .informationboxes{
@@ -337,13 +587,22 @@ p {
 }
 
 /* General buttons */
-.buttonsection {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-evenly;
-    align-items:center;
-    margin: 10px 10% 25px 10%;
-}
+@media screen and (max-width: 600px) {
+    .buttonsection {
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-evenly;
+        align-content: space-around;
+        align-items:center;
+        margin: 10px 10% 25px 10%;}}
+
+@media screen and (min-width: 600px) {
+    .buttonsection {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-evenly;
+        align-items:center;
+        margin: 10px 10% 25px 10%;}}
 
 @-webkit-keyframes hvr-pulse {
     25% {
@@ -373,7 +632,8 @@ p {
 	width: auto;
     padding: 1.5em 1.5em;
     border-radius: 15px;
-    
+    margin: 2vh;
+    font-size: 2.5vh;
 }
 
 .button:hover, .button:focus, .button:active {

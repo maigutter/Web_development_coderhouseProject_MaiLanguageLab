@@ -26,6 +26,7 @@ Now, for the **Second Delivery** I'm adding **more animations**, **grids**, and 
 ## Great! And what is the page about?
 
 The code is a first draft for the webpage of my personal Project: __Mai Language Lab__, which is a virtual language school in which you can learn both English and Spanish as Second Languages. 
+
 If you want to know more about the page, read the info on the site 😊 Or use any of the contact links to write me _-through Instagram, e-mail, Whatsapp, LinkedIn or Facebook-_ (not the contact form though because that one doesn't work yet 😅). 
  
 
@@ -42,7 +43,7 @@ _Ahora sí! A continuación la versión en Español de este ReadMe 😊_
 
 Holi! 
 
-Este repo contiene un "_work in progress_": mi proyecto para el **Curso de Desarrollo Web** de **Coderhouse**, que es parte de la Carrera en Desarrollo Fullstack. Este curso se centra en Desarrollo Frontend, e incluye **Html** y**CSS**, **Diseño Responsive**, **Bootstrap** y mucho más. 
+Este repo contiene un "_work in progress_": mi proyecto para el **Curso de Desarrollo Web** de **Coderhouse**, que es parte de la Carrera en Desarrollo Fullstack. Este curso se centra en Desarrollo Frontend, e incluye **Html** y **CSS**, **Diseño Responsive**, **Bootstrap** y mucho más. 
 
 Si querés saber más de lo que incluye el curso, podés chequear el programa completo [acá](https://drive.google.com/file/d/1Zl8c2cqUin3_GGgRM2kbjL1Q1MWgNEUu/view). 
 
