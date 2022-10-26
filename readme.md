@@ -69,7 +69,7 @@ Si tuviste que scrollear para leer esto en español, quizás te interesen las cl
 Si querés saber más de Mai Language Lab, podés leer la info en la web o  contactarme a través de cualquiera de los links de contacto _-Instagram, Mail, Whatsapp, LinkedIn o Facebook-_ (pero no a través del form de contacto porque todavía no anda 😅). 
 
 
-## ¡Perfecto! ¿Y donde puedo ver la página?
+## ¡Perfecto! ¿Y dónde puedo ver la página?
 
 **El link de la página está [acá](https://maigutter.github.io/preentrega2_coderhouse/).**
 
