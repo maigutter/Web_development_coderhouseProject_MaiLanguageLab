@@ -19,8 +19,7 @@ body {
     grid-template-columns: repeat (12, 1fr);
     grid-template-rows: auto;
     grid-column-gap: 10%;
-    justify-content: space-around;
-    align-items: left;
+    align-items: center;
     background-color: #e52524;
     position: fixed ;
     top: 0;
