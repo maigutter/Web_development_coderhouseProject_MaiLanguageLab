@@ -394,7 +394,6 @@ body {
         background-blend-mode: lighten ;
         border-radius: 20px;
         text-align: justify;
-        width: 100vw;
         height: auto;
         padding: 2% ;
         line-height:  1.8;
@@ -409,7 +408,6 @@ body {
         background-blend-mode: lighten ;
         border-radius: 20px;
         text-align: justify;
-        width: 100vw;
         height: auto;
         padding: 2% ;
         line-height:  1.8;
