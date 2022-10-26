@@ -13,29 +13,30 @@ body {
 }
 
 /* NavBar */
-nav {
-    display: flex; 
-    flex-direction: row;
-    flex-wrap: nowrap;
+.navbar {
+    display: grid; 
+    grid-template-areas: "home pedagogia pedagogia comotrabajamos comotrabajamos contacto none none none none plataforma plataforma";
+    grid-template-columns: repeat (12, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10%;
     justify-content: space-around;
     align-items: left;
     background-color: #e52524;
     position: fixed ;
     top: 0;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     height: 45px;
 }
 
 .nav__ul {
+    grid-area: nav;
+    display: grid; 
     overflow: hidden;
     list-style: none;
     display: inline-block;
     position:absolute;
     left: 0;
-    display: flex; 
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-around;
     align-items: left;
 }
@@ -51,6 +52,26 @@ nav {
 .nav__li a:hover {
     background-color: #7f2525;
     color: white;
+}
+
+#nav__li__home {
+    grid-area: home;
+}
+
+#nav__li__pedagogia {
+    grid-area: pedagogia;
+}
+
+#nav__li__comotrabajamos {
+    grid-area: comotrabajamos;
+}
+
+#nav__li__contacto {
+    grid-area: contacto;
+}
+
+#nav__li__plataforma {
+    grid-area: plataforma;
 }
 
 .active {
