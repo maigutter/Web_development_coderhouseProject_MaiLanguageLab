@@ -390,7 +390,7 @@ body {
         max-width: 100vw;}}
 
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 600px) and (min-width: 400px) {
     p {
         background-color: rgb(237,235,238);
         background-blend-mode: lighten ;
@@ -621,6 +621,7 @@ p {
     75% {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);}}
+
 .button {
     background-color: #8596DC;
     background-blend-mode: overlay;
@@ -632,6 +633,7 @@ p {
 	text-decoration: none;
 	display: inline-block;
 	width: auto;
+    height: 15vh;
     padding: 1.5em 1.5em;
     border-radius: 15px;
     margin: 2vh;
@@ -691,6 +693,40 @@ p {
         z-index: 2;}}
 
 @media screen and (min-width: 600px) {
+    footer {
+        background-color:  #29a992;
+        bottom: 0;
+        margin: 5% 0 0 0;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-content: baseline;
+        top: 0;
+        width: 100vw;
+        text-align: center;
+        height: auto;
+        position:relative;
+        overflow: hidden;}
+    
+    .footer__gototop {
+        margin: 3% 2% 0 5%;}
+    
+    .footer__iconos {
+    margin: 2% 2% 0 0%;
+    height: 35px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    align-content: center;
+    list-style: none;
+    box-align: center;
+    text-align: center; 
+    z-index: 2;}}
+
+@media screen and (min-width: 1200px) {
     footer {
         background-color:  #29a992;
         bottom: 0;
