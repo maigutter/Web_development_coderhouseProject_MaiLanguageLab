@@ -33,7 +33,7 @@ If you want to know more about the page, read the info on the site 😊 Or use a
 
 ## Perfect! So where can I see the page?
 
-**The link for the page is [here](https://pip.pypa.io/en/stable/).**
+**The link for the page is [here](https://maigutter.github.io/preentrega2_coderhouse/).**
 
 ---
 # 💻🚀 Hola! Bienvenide a mi proyecto 🚀💻
@@ -71,6 +71,6 @@ Si querés saber más de Mai Language Lab, podés leer la info en la web o  cont
 
 ## Perfecto! Y donde puedo ver la página?
 
-**El link de la página está [acá](https://pip.pypa.io/en/stable/).**
+**El link de la página está [acá](https://maigutter.github.io/preentrega2_coderhouse/).**
 
 ---
