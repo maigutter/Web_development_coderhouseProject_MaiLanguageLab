@@ -397,17 +397,25 @@ footer {
     margin: 5% 0 0 0;
     display: flex; 
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content:flex-start;
+    flex-wrap: wrap;
+    justify-content:space-between;
     align-content: baseline;
     top: 0;
-    width: auto;
+    width: 100vw;
     text-align: center;
     height: auto;
     position:relative;
+    overflow: hidden;
 }
 
-.footer__section {
+.footer__sectionlogoycopy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__sectionlogo {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -418,11 +426,11 @@ footer {
 }
 
 .footer__copy {
-    margin: 1% 30% 0 0;
+    margin: 1% 1% 0 0;
 }
 
 .footer__gototop {
-    margin: 3% 35% 0 5%;
+    margin: 3% 2% 0 5%;
 }
 
 .footer__gototop a{
