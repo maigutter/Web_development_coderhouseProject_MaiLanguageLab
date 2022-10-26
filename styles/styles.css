@@ -248,22 +248,19 @@ body {
         flex-direction: column;
         justify-content:flex-end;
         align-items: center;
-        flex-wrap: nowrap;
-    }
+        flex-wrap: nowrap;}
     
     .header__pagetitle {
         width: 100%;
         text-align: flex-start;
         align-self: center;
         align-items: flex-start;
-        align-content: flex-start;
-    }
+        align-content: flex-start;}
     
     .header__pagetitle h1 {
         width: 100%;
         white-space: nowrap;
-        font-size: 4vh;
-    }
+        font-size: 4vh;}
     
     .header__logo {
         position:absolute;
@@ -275,62 +272,67 @@ body {
         width: 100%;
         min-height: 450px;
         height: 450px;
-        object-fit: contain;
-    }
+        object-fit: contain;}
     
     .header__pagetitle{
         text-align: center;
         justify-content: center;
-        margin: 1%;
-        width: 50%;
-    } }
+        margin: 0;} 
+    .pagetitle {
+        margin: 10px 0px 25px 0px;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        text-align: center; }}
 
 @media screen and (min-width: 600px) {
-header{
-    min-width: 100%;
-    max-width: 100%;
-    width: 100%;
-    min-height: 450px;
-    height: auto;
-    object-fit: contain;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-end;
-    align-items: center;
-    flex-wrap: nowrap;
-}
+    header{
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+        min-height: 450px;
+        height: auto;
+        object-fit: contain;
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        align-items: center;
+        flex-wrap: nowrap;}
 
-.header__pagetitle {
-    width: 100%;
-    text-align: center;
-}
+    .header__pagetitle {
+        width: 100%;
+        text-align: center;}
 
-.header__pagetitle h1 {
-    width: 100%;
-    white-space: nowrap;
-}
+    .header__pagetitle h1 {
+        width: 100%;
+        white-space: nowrap;}
 
-.header__logo {
-    position:absolute;
-    left:0px;
-    top:0px;
-    z-index:-1;
-    min-width: 336px;
-    max-width: 100%;
-    width: 100%;
-    min-height: 450px;
-    height: 450px;
-    object-fit: contain;
-}
+    .header__logo {
+        position:absolute;
+        left:0px;
+        top:0px;
+        z-index:-1;
+        min-width: 336px;
+        max-width: 100%;
+        width: 100%;
+        min-height: 450px;
+        height: 450px;
+        object-fit: contain;}
 
-.header__pagetitle{
-    text-align: center;
-    justify-content: center;
-    margin: 1%;
-    width: 50%;
-} }
+    .header__pagetitle{
+        text-align: center;
+        justify-content: center;
+        margin: 1%;
+        width: 50%;}
+
+    .pagetitle {
+        margin: 10px 0px 25px 0px;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        text-align: center; }}
 
 .iconos{
     margin: 0;
@@ -370,13 +372,6 @@ header{
     
 }
 
-.pagetitle {
-    margin: 10px 0px 25px 0px;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    text-align: center; 
-}
 
 /* Content */
 body {
