@@ -383,6 +383,33 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+    p {
+        background-color: rgb(237,235,238);
+        background-blend-mode: lighten ;
+        border-radius: 20px;
+        text-align: justify;
+        height: auto;
+        padding: 2% ;
+        line-height:  1.8;
+        font-weight: bolder;
+        letter-spacing: 1px ;
+        line-height: 1.5;
+        word-spacing: 3px ;
+        font-size: 2.8vh;}
+    
+    .home__p {
+        background-color: rgb(237,235,238);
+        background-blend-mode: lighten ;
+        border-radius: 20px;
+        text-align: justify;
+        height: auto;
+        padding: 2% ;
+        line-height:  1.8;
+        font-weight: bolder;
+        letter-spacing: 1px ;
+        line-height: 1.5;
+        word-spacing: 3px ;
+        text-indent: 10%;}
     .video {
         justify-content: center;
         align-items: center;
@@ -657,6 +684,7 @@ p {
 
 /* FOOTER */
 
+/* FOOTER Mobile view */
 @media screen and (max-width: 600px) {
     footer {
         background-color:  #29a992;
@@ -692,28 +720,32 @@ p {
         text-align: center; 
         z-index: 2;}}
 
-@media screen and (min-width: 600px) {
+
+/* FOOTER Tablet or mid view */
+@media screen and (min-width: 600px) and (max-width: 1200px) {
     footer {
         background-color:  #29a992;
         bottom: 0;
         margin: 5% 0 0 0;
-        display: flex; 
+        padding: 1%;
+        display: grid; 
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content:space-around;
+        display: flex;
+        justify-content: space-between;
         align-content: baseline;
         top: 0;
-        width: 100vw;
         text-align: center;
         height: auto;
         position:relative;
         overflow: hidden;}
     
     .footer__gototop {
-        margin: 3% 2% 0 5%;}
+        margin: 2% 18% 0 0%;
+        align-self: center;}
     
     .footer__iconos {
-    margin: 2% 2% 0 0%;
+    margin: 2% 0% 0 0%;
     height: 35px;
     width: auto;
     display: flex;
@@ -724,8 +756,19 @@ p {
     list-style: none;
     box-align: center;
     text-align: center; 
-    z-index: 2;}}
+    z-index: 2;
+    align-self: center;}
+    
+    .footer__sectionlogoycopy {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        margin: 2% 3% 0 0}}
 
+
+/* FOOTER web view - full screen*/
 @media screen and (min-width: 1200px) {
     footer {
         background-color:  #29a992;
