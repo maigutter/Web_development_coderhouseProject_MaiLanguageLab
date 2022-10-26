@@ -1,6 +1,6 @@
 # 💻🚀 Hi! Welcome to my project 🚀💻
 
-_Si no hablás inglés, no te preocupes! Te encontrás el texto en español scrolleando un poco 😉_
+_Si no hablás inglés, ¡no te preocupes! Te encontrás el texto en español scrolleando un poco 😉_
 
 ## What are we seeing?
 
@@ -36,12 +36,12 @@ If you want to know more about the page, read the info on the site 😊 Or use a
 **The link for the page is [here](https://maigutter.github.io/preentrega2_coderhouse/).**
 
 ---
-# 💻🚀 Hola! Bienvenide a mi proyecto 🚀💻
-_Ahora sí! A continuación la versión en Español de este ReadMe 😊_
+# 💻🚀 ¡Hola! Bienvenide a mi proyecto 🚀💻
+_¡Ahora sí! A continuación la versión en Español de este ReadMe 😊_
 
 ## ¿Qué estamos viendo?
 
-Holi! 
+¡Holi! 
 
 Este repo contiene un "_work in progress_": mi proyecto para el **Curso de Desarrollo Web** de **Coderhouse**, que es parte de la Carrera en Desarrollo Fullstack. Este curso se centra en Desarrollo Frontend, e incluye **Html** y **CSS**, **Diseño Responsive**, **Bootstrap** y mucho más. 
 
@@ -50,26 +50,26 @@ Si querés saber más de lo que incluye el curso, podés chequear el programa co
 También podés mirar la página de [Coderhouse](https://www.coderhouse.com/).
 
 
-## Piola! Y el proyecto está terminado?
+## ¡Piola! ¿Y el proyecto está terminado?
 
-No todavía! Ahora mismo estás viendo la  **Segunda Preentrega** del proyecto. 
+¡No todavía! Ahora mismo estás viendo la  **Segunda Preentrega** del proyecto. 
 
-La **primera preentrega**, la cual podés ver en el primer commit del proyecto, contenía un MVP (Mínimo Producto Viable) usando **CSS básico (incluyendo un poco de flexbox y algunas animaciones)**.
+La **Primera Preentrega**, la cual podés ver en el primer commit del proyecto, contenía un MVP (Mínimo Producto Viable) usando **CSS básico (incluyendo un poco de flexbox y algunas animaciones)**.
 
 Ahora, para la **Segunda Preentrega**, estoy agregando **más animaciones**, **grids**, y conviritiendo a 2 de las 5 páginas en *responsive*: _Home_  (index.html) y _Pedagogía_ (pedagogia.html).
 
-**Estate atente! Pronto se viene el resto!**
+**¡Estate atente! ¡Pronto se viene el resto!**
 
-## Joya, y la página de qué es?
+## Joya, ¿y la página de qué es?
 
-El código es un primer borrador de la página web de mi proyecto personal: __Mai Language Lab__, que es una escuela virtual de idiomas donde podés aprendere Inglés y Español como segundas lenguas. 
+El código es un primer borrador de la página web de mi proyecto personal: __Mai Language Lab__, que es una escuela virtual de idiomas donde podés aprender Inglés y Español como segundas lenguas. 
 
 Si tuviste que scrollear para leer esto en español, quizás te interesen las clases de inglés orientadas a IT 😊
 
-Si querés saber más de Mai Language Lab, podés leer la info en la web o  contactarme a través de cualquiera de los links de contacto _-instagram, mail, whatsapp, linkedin o Facebook-_ (pero no a través del form de contacto porque todavía no anda 😅). 
+Si querés saber más de Mai Language Lab, podés leer la info en la web o  contactarme a través de cualquiera de los links de contacto _-Instagram, Mail, Whatsapp, LinkedIn o Facebook-_ (pero no a través del form de contacto porque todavía no anda 😅). 
 
 
-## Perfecto! Y donde puedo ver la página?
+## ¡Perfecto! ¿Y donde puedo ver la página?
 
 **El link de la página está [acá](https://maigutter.github.io/preentrega2_coderhouse/).**
 
