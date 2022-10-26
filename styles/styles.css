@@ -15,9 +15,9 @@ body {
 /* NavBar */
 .navbar {
     display: grid; 
-    grid-template-areas: "home pedagogia pedagogia comotrabajamos comotrabajamos contacto none none none none plataforma plataforma";
+    grid-template-areas: "nav nav nav nav nav nav nav nav nav nav nav nav";
     grid-template-columns: repeat (12, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
     grid-column-gap: 10%;
     justify-content: space-around;
     align-items: left;
@@ -32,9 +32,11 @@ body {
 .nav__ul {
     grid-area: nav;
     display: grid; 
+    grid-template-areas: "home pedagogia pedagogia comotrabajamos comotrabajamos contacto none none none none plataforma plataforma";
+    grid-template-columns: repeat (12, 1fr);
+    grid-template-rows: auto;
     overflow: hidden;
     list-style: none;
-    display: inline-block;
     position:absolute;
     left: 0;
     justify-content: space-around;
