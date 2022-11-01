@@ -1,0 +1,25 @@
+{
+  "name": "preeentrega_proyecto_coderhouse",
+  "version": "1.0.0",
+  "description": "projecto coder SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maigutter/preentrega2_coderhouse.git"
+  },
+  "author": "maigutter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maigutter/preentrega2_coderhouse/issues"
+  },
+  "homepage": "https://github.com/maigutter/preentrega2_coderhouse#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
