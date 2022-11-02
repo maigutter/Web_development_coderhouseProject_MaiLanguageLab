@@ -112,10 +112,10 @@ body {
     }}
 
 @media screen and (min-width: 600px) {
-    .nav_image {
+    .nav__image {
         display: none;}
     
-    .nav_logo {
+    .nav__logo {
         display:none;}
     
     .navbar {
@@ -178,8 +178,12 @@ body {
     }}
 
 @media screen and (min-width: 820px) {
-    .nav_image {
+    .nav__image {
         display: none;}
+
+    .nav__logo {
+        display: none;}
+    
     .navbar {
         display: flex;
         flex-direction: row;
