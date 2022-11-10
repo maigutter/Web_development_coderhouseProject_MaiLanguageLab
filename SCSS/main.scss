@@ -1,0 +1,44 @@
+@import "colores";
+
+* { 
+    font-family: 'Alata';
+    padding: 0px;
+    margin: 0px;}
+
+body {   
+    background-image: url(../assets/elementos/amarillo_abstracto.png), url(../assets/elementos/rosa_dos_ovalos.png), url(../assets/elementos/verde_cuadrado.png),url(../assets/elementos/rojo_circulo_puntos.png),url(../assets/elementos/amarillo_cuadrado.png),url("../assets/Fondos.png");
+    background-color: $plainwhite;
+    background-repeat:no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,repeat;
+    background-size: 12%, 11%, 12%, 9%, 11%,cover;
+    background-position: -5% 5%, 103% 40%,-3% 55%, 101% -2%, 103% 80%, center;
+    background-attachment: scroll, scroll, scroll,scroll, scroll, fixed;
+    color: $strongred;
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* otras cuestiones de formato */
+
+.imagencentrada {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex ;
+    align-items: center ;
+}
+
+@import "navbar";
+@import "header";
+@import "iconos";
+@import "content";
+@import "footer";
+@import "informationboxes";
+@import "form";
+@import "buttons";
+
+

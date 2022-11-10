@@ -6,7 +6,7 @@ _Si no hablás inglés, ¡no te preocupes! Te encontrás el texto en español sc
 
 Hi there! 
 
-This repository contains a work in progress: my project for the **Web Development Bootcamp** on **Coderhouse**, as part of the Career on FullStack Dev. This course focuses on Frontend Dev and includes learning about **Html** and **CSS**, **Responsive Design**, **Bootstrap** and much more. 
+This repository contains a work in progress: my project for the **Web Development Bootcamp** on **Coderhouse**, as part of the Career on FullStack Dev. This course focuses on Frontend Dev and includes learning about **Html** and **CSS**, **Responsive Design**, **Bootstrap**, **SASS** and much more. 
 
 If you want to know more about what is included in the course, you can see the whole program [here](https://drive.google.com/file/d/1Zl8c2cqUin3_GGgRM2kbjL1Q1MWgNEUu/view). 
 
@@ -15,11 +15,11 @@ You can checkout [Coderhouse](https://www.coderhouse.com/) as well if you want t
 
 ## Cool! Is the project finished?
 
-Not yet! Right now you are seeing the  **Second Delivery** of the project. 
+Not yet! Right now you are seeing the  **Third Delivery** of the project. 
 
-The **first delivery**, which you can check in the first commitment of this project, contained an MVP using **basic CSS (including a bit of flexbox and some animations)**.
+The **First Delivery**, which you can check in the first commitment of this project, contained an MVP using **basic CSS (including a bit of flexbox and some animations)**. The **Second Delivery**, which you can see in previous commits as well, adds **more animations**, **grids**, and making 2 out of the 5 pages responsive: _Home_  (index.html) and _Pedagogía_ (pedagogia.html) pages.
 
-Now, for the **Second Delivery** I'm adding **more animations**, **grids**, and making 2 out of the 5 pages responsive: _Home_  (index.html) and _Pedagogía_ (pedagogia.html) pages.
+Here, on the **Third Delivery**, you will find a **fully responsive** site for all pages and devices, and the use of **SASS** (**SCSS**) and **SEO**.
 
 **Stay tuned! The rest is coming soon!**
 
@@ -43,7 +43,7 @@ _¡Ahora sí! A continuación la versión en Español de este ReadMe 😊_
 
 ¡Holi! 
 
-Este repo contiene un "_work in progress_": mi proyecto para el **Curso de Desarrollo Web** de **Coderhouse**, que es parte de la Carrera en Desarrollo Fullstack. Este curso se centra en Desarrollo Frontend, e incluye **Html** y **CSS**, **Diseño Responsive**, **Bootstrap** y mucho más. 
+Este repo contiene un "_work in progress_": mi proyecto para el **Curso de Desarrollo Web** de **Coderhouse**, que es parte de la Carrera en Desarrollo Fullstack. Este curso se centra en Desarrollo Frontend, e incluye **Html** y **CSS**, **Diseño Responsive**, **Bootstrap**, **SASS** y mucho más. 
 
 Si querés saber más de lo que incluye el curso, podés chequear el programa completo [acá](https://drive.google.com/file/d/1Zl8c2cqUin3_GGgRM2kbjL1Q1MWgNEUu/view). 
 
@@ -52,11 +52,11 @@ También podés mirar la página de [Coderhouse](https://www.coderhouse.com/).
 
 ## ¡Piola! ¿Y el proyecto está terminado?
 
-¡No todavía! Ahora mismo estás viendo la  **Segunda Preentrega** del proyecto. 
+¡No todavía! Ahora mismo estás viendo la  **Tercera Preentrega** del proyecto. 
 
-La **Primera Preentrega**, la cual podés ver en el primer commit del proyecto, contenía un MVP (Mínimo Producto Viable) usando **CSS básico (incluyendo un poco de flexbox y algunas animaciones)**.
+La **Primera Preentrega**, la cual podés ver en el primer commit del proyecto, contenía un MVP (Mínimo Producto Viable) usando **CSS básico (incluyendo un poco de flexbox y algunas animaciones)**. Para la **Segunda Preentrega**, la cual también podés encontrar en commits previos, agregué **más animaciones**, **grids**, y convertí a 2 de las 5 páginas en *responsive*: _Home_  (index.html) y _Pedagogía_ (pedagogia.html).
 
-Ahora, para la **Segunda Preentrega**, estoy agregando **más animaciones**, **grids**, y conviritiendo a 2 de las 5 páginas en *responsive*: _Home_  (index.html) y _Pedagogía_ (pedagogia.html).
+Ahora, en la **Tercera Preentrega** vas a encontrar un sitio **totalmente responsivo** en todas sus páginas y para todo tipo de dispositivos, y el uso de **SASS** (**SCSS**) y **SEO**.
 
 **¡Estate atente! ¡Pronto se viene el resto!**
 
