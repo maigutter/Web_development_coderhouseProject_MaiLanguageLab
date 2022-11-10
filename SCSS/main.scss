@@ -1,13 +1,5 @@
 @import "colores";
 @import "mediaview";
-@import "navbar";
-@import "header";
-@import "iconos";
-@import "content";
-@import "footer";
-@import "informationboxes";
-@import "form";
-@import "buttons";
 
 * { 
     font-family: 'Alata';
@@ -41,6 +33,13 @@ body {
     align-items: center ;
 }
 
-
+@import "navbar";
+@import "header";
+@import "iconos";
+@import "content";
+@import "footer";
+@import "informationboxes";
+@import "form";
+@import "buttons";
 
 
