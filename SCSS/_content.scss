@@ -1,0 +1,76 @@
+@import "colores";
+@import "mediaview";
+
+@media screen and (max-width: 600px) {
+    p {
+        background-color: $whitebackground;
+        background-blend-mode: lighten ;
+        border-radius: 20px;
+        text-align: center;
+        height: auto;
+        margin: 4% 0%;
+        padding: 2% ;
+        line-height:  1.8;
+        font-weight: bolder;
+        letter-spacing: 1px ;
+        line-height: 1.5;
+        word-spacing: 3px ;
+        font-size: 2.8vh;}
+    
+    .home__p {
+        background-color: $whitebackground;
+        background-blend-mode: lighten ;
+        border-radius: 20px;
+        text-align: justify;
+        height: auto;
+        padding: 2% ;
+        line-height:  1.8;
+        font-weight: bolder;
+        letter-spacing: 1px ;
+        line-height: 1.5;
+        word-spacing: 3px ;
+        text-indent: 10%;}
+    .video {
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        max-width: 100vw;}}
+
+
+@media screen and (min-width: 600px) {
+p {
+    background-color: $whitebackground;
+    background-blend-mode: lighten ;
+    border-radius: 20px;
+    text-align: justify;
+    margin: 10px 10% 25px 10%;
+    width: 75%;
+    height: auto;
+    padding: 2% ;
+    line-height:  1.8;
+    font-weight: bolder;
+    letter-spacing: 1px ;
+    line-height: 1.5;
+    word-spacing: 3px ;
+    font-size: 2.6vh;}
+
+.home__p {
+    background-color:$whitebackground;
+    background-blend-mode: lighten ;
+    border-radius: 20px;
+    text-align: justify;
+    margin: 10px 10% 25px 10%;
+    width: 75%;
+    height: auto;
+    padding: 2% ;
+    line-height:  1.8;
+    font-weight: bolder;
+    letter-spacing: 1px ;
+    line-height: 1.5;
+    word-spacing: 3px ;
+    text-indent: 10%;}
+
+.video {
+    justify-content: center;
+    align-items: center;
+    align-self: center;}}

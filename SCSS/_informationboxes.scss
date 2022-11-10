@@ -1,0 +1,485 @@
+@import "colores";
+@import "mediaview";
+
+@media screen and (max-width: 600px){
+    .informationboxes{
+        width: 100%;
+        min-height: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        align-content: center;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .informationboxes__box {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        flex-flow: row nowrap;
+        display: flex;    
+        min-width: 55vw;
+        min-height: 25vh;
+        background:$pastellightblue;
+        opacity: 1;
+        color: $darkblue;
+        padding: 0;
+        font-weight: bold;
+        position:relative;
+        transition: all 0.5s linear;
+        border-radius: 20px;
+            &:hover {
+                    cursor: pointer;}
+            &:hover .informationboxes__box__statehover{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        align-content:center;
+                        background: $middlelightblue;
+                        opacity: 1;
+                        color: white;
+                        font-weight: normal;
+                        position:absolute;
+                        width: 50vw;
+                        min-height: 35vh;
+                        height: auto;
+                        margin: 10%;
+                        padding: 1%;
+                    }
+            &:active .informationboxes__box__statehover{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        align-content:center;
+                        background: $middlelightblue;
+                        opacity: 1;
+                        color: white;
+                        font-weight: normal;
+                        position:absolute;
+                        width: 50vw;
+                        min-height: 35vh;
+                        height: auto;
+                        margin: 10%;
+                        padding: 1%;
+                    }}
+    
+    .informationboxes__box__state1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content:center;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        background:$pastellightblue;
+        opacity: 1;
+        color: $darkblue;
+        padding: 0;
+        font-weight:bolder;
+        position:absolute;
+            h3 {
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                align-content:center;
+                font-size: 110%;}}
+    
+    .informationboxes__box__statehover {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content:center;
+        background: $middlelightblue;
+        border-radius: 20px;
+        opacity: 1;
+        color: white;
+        font-weight: normal;
+        position:absolute;
+        min-width: 70vw;
+        min-height: 30vh;
+        width: auto;
+        height: auto;
+        padding: 1%;}
+    
+    .informationboxes__box__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content:center;
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+        font-weight: normal;
+        line-height: 130%;
+        margin: 2%;
+        font-size: 2.5vh;}}
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+    .informationboxes{
+        width: 100%;
+        min-height: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        align-content: center;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .informationboxes__box {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        flex-flow: row nowrap;
+        display: flex;    
+        min-width: 35vw;
+        min-height: 25vh;
+        background:$pastellightblue;
+        opacity: 1;
+        color: $darkblue;
+        padding: 0;
+        font-weight: bold;
+        position:relative;
+        transition: all 0.5s linear;
+        border-radius: 20px;
+            &:hover {
+                cursor: pointer;}
+            &:hover .informationboxes__box__statehover{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                align-content:center;
+                background: $middlelightblue;
+                opacity: 1;
+                color: white;
+                font-weight: normal;
+                position:absolute;
+                z-index: 100;
+                width: 50vw;
+                min-height: 35vh;
+                height: auto;
+                margin: 10%;
+                padding: 1%;}
+            &:active .informationboxes__box__statehover{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                align-content:center;
+                background: $middlelightblue;
+                opacity: 1;
+                color: white;
+                font-weight: normal;
+                position:absolute;
+                z-index: 100;
+                width: 50vw;
+                min-height: 35vh;
+                height: auto;
+                margin: 10%;
+                padding: 1%;}}
+    
+    .informationboxes__box__state1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content:center;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        background:$pastellightblue;
+        opacity: 1;
+        color: $darkblue;
+        padding: 0;
+        font-weight:bolder;
+        position:absolute;
+        h3 {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            align-content:center;
+            font-size: 110%;
+        }
+    }
+    
+    
+    .informationboxes__box__statehover {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content:center;
+        background: $middlelightblue;
+        border-radius: 20px;
+        opacity: 1;
+        color: white;
+        font-weight: normal;
+        position:absolute;
+        z-index: 100;
+        width: auto;
+        height: auto;
+        padding: 1%;
+    }
+    
+    .informationboxes__box__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content:center;
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+        font-weight: normal;
+        line-height: 130%;
+        margin: 2%;
+        font-size: 2.5vh;
+        
+    }}
+
+@media screen and (max-width: 1400px) and (min-width: 900px){
+    .informationboxes{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        align-content: center;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .informationboxes__box {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        flex-flow: row nowrap;
+        display: flex;    
+        width: 25vw;
+        height: 25vh;
+        background:$pastellightblue;
+        opacity: 1;
+        color: $darkblue;
+        padding: 0;
+        font-weight: bold;
+        position:relative;
+        transition: all 0.5s linear;
+        border-radius: 20px;
+            &:hover {
+                cursor: pointer;}
+            &:hover .informationboxes__box__statehover{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                align-content:center;
+                background: $middlelightblue;
+                opacity: 1;
+                color: white;
+                font-weight: normal;
+                position:absolute;
+                z-index: 100;
+                width: 30vw;
+                min-height: 30vh;
+                height: auto;
+                margin: 10%;
+                padding: 1%;
+            }}
+    
+    .informationboxes__box__state1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content:center;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        background:$pastellightblue;
+        opacity: 1;
+        color: $darkblue;
+        padding: 0;
+        font-weight:bolder;
+        position:absolute;
+        h3 {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            align-content:center;
+            font-size: 110%;
+        }
+    }
+
+    .informationboxes__box__statehover {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content:center;
+        background: $middlelightblue;
+        border-radius: 20px;
+        opacity: 1;
+        color: white;
+        font-weight: normal;
+        position:absolute;
+        z-index: 100;
+        width: auto;
+        height: auto;
+        padding: 1%;
+    }
+    
+    .informationboxes__box__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content:center;
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+        font-weight: normal;
+        line-height: 130%;
+        margin: 2%;
+        font-size: 2.5vh;
+        
+    }}
+    
+@media screen and (min-width: 1400px){
+    .informationboxes{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .informationboxes__box {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        flex-flow: row nowrap;
+        display: flex;    
+        width: 15vw;
+        height: 25vh;
+        background-image: url(../assets/elementos/Mesa\ de\ trabajo\ 112.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 1;
+        color: $middlelightblue;
+        padding: 1.5%;
+        font-weight: bold;
+        position:relative;
+        transition: all 0.5s linear;
+            &:hover {
+                cursor: pointer;}
+            &:hover .informationboxes__box__statehover{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                align-content:center;
+                background-image: url(../assets/elementos/Mesa\ de\ trabajo\ 93.png);
+                background-size:contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                object-fit: cover;
+                opacity: 1;
+                color: $middlelightblue;
+                font-weight: normal;
+                position:absolute;
+                z-index: 100;
+                width: 40vw;
+                height: 40vh;
+                margin: 10%;
+            }}
+    
+    .informationboxes__box__state1 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content:center;
+        width: 100%;
+        height: 100%;
+        background-image: url(../assets/elementos/Mesa\ de\ trabajo\ 112.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 1;
+        color: $middlelightblue;
+        padding: 1.5%;
+        font-weight: bold;
+        position:absolute;
+        h3 {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            align-content:center;
+            padding: 26%;
+            padding-top: 28%;
+            font-size: 110%;
+        }}
+    
+    
+    .informationboxes__box__statehover {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content:center;
+        background-image: url(../assets/elementos/Mesa\ de\ trabajo\ 121.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        object-fit: cover;
+        opacity: 1;
+        color: $middlelightblue;
+        font-weight: normal;
+        position:absolute;
+        z-index: 100;
+        width: auto;
+        height: 115%;}
+    
+    .informationboxes__box__text {
+        margin: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content:center;
+        width: 30%;
+        height: 90%;
+        font-size: 85%;
+        font-weight: bold;
+        line-height: 130%;}}

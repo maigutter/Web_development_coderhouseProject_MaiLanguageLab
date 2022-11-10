@@ -1,0 +1,194 @@
+@import "colores";
+@import "mediaview";
+
+
+@media screen and (max-width: 600px) {
+    footer {
+        background-color:  $greenfooter;
+        bottom: 0;
+        margin: 5% 0 0 0;
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-content: center;
+        top: 0;
+        width: 100vw;
+        text-align: center;
+        height: auto;
+        position:relative;
+        overflow: hidden;}
+        
+    .footer__gototop {
+        margin: 1% 0 0 0;
+        font-size: 2.7vh;}
+    
+    .footer__iconos {
+        margin: 2% 2% 3% 0%;
+        height: 35px;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items:center;
+        align-content: center;
+        list-style: none;
+        box-align: center;
+        text-align: center; 
+        z-index: 2;}}
+
+
+/* FOOTER Tablet or mid view */
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    footer {
+        background-color:  $greenfooter;
+        bottom: 0;
+        margin: 5% 0 0 0;
+        padding: 1%;
+        display: grid; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        align-content: baseline;
+        top: 0;
+        text-align: center;
+        height: auto;
+        position:relative;
+        overflow: hidden;}
+    
+    .footer__gototop {
+        margin: 2% 18% 0 0%;
+        align-self: center;}
+    
+    .footer__iconos {
+    margin: 2% 0% 0 0%;
+    height: 35px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    align-content: center;
+    list-style: none;
+    box-align: center;
+    text-align: center; 
+    z-index: 2;
+    align-self: center;}
+    
+    .footer__sectionlogoycopy {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        margin: 2% 3% 0 0}}
+
+
+/* FOOTER web view - full screen*/
+@media screen and (min-width: 1200px) {
+    footer {
+        background-color: $greenfooter;
+        bottom: 0;
+        margin: 5% 0 0 0;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        align-content: baseline;
+        top: 0;
+        width: 100vw;
+        text-align: center;
+        height: auto;
+        position:relative;
+        overflow: hidden;}
+    
+    .footer__gototop {
+        margin: 3% 2% 0 5%;}
+    
+    .footer__iconos {
+    margin: 2% 2% 0 0%;
+    height: 35px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    align-content: center;
+    list-style: none;
+    box-align: center;
+    text-align: center; 
+    z-index: 2;}}
+
+/* FOOTER igual para todas las vistas */
+.footer__sectionlogoycopy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__sectionlogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+}
+
+.footer__copy {
+    margin: 1% 1% 0 0;
+}
+
+
+.footer__gototop {
+    a{
+    color:$whitebackground;
+        &:hover {
+            color:$strongred;}}
+    &:hover {
+    transform:scale(1.1);
+}}
+
+
+.footer__logo {
+    height: 100px;
+    width: auto;
+        &:hover {
+            transform: scale(1.1)}}
+
+
+
+.footer__iconos a:hover {
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+
+.footer__iconos__li {
+    display: flex;
+    width:auto;
+    height: auto;
+    margin: 9px;
+}
+
+/* Animaciones footer */
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,64 @@
+@import "colores";
+@import "mediaview";
+
+@media screen and (max-width: 600px) {
+    .buttonsection {
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-evenly;
+        align-content: space-around;
+        align-items:center;
+        margin: 10px 10% 25px 10%;}}
+
+@media screen and (min-width: 600px) {
+    .buttonsection {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-evenly;
+        align-items:center;
+        margin: 10px 10% 25px 10%;}}
+
+@-webkit-keyframes hvr-pulse {
+    25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);}
+    75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);}}
+
+@keyframes hvr-pulse {
+    25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);}
+    75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);}}
+
+.button {
+    background-color: $lightblue;
+    background-blend-mode: overlay;
+	border: 2px solid $lightblue;
+	color: $whitebackground;
+    font-stretch: semi-expanded ;
+    letter-spacing: 2;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: auto;
+    height: 15vh;
+    padding: 1.5em 1.5em;
+    border-radius: 15px;
+    margin: 2vh;
+    font-size: 2.5vh;
+        &:hover, &:focus, &:active {
+        background-color: $middlelightblue;
+        border: 2px solid $middlelightblue ;
+        cursor: pointer;
+        -webkit-animation-name: hvr-pulse;
+        animation-name: hvr-pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: 3;}}
