@@ -1,3 +1,12 @@
+@import "colores";
+@import "mediaview";
+@import "navbar";
+@import "header";
+@import "footer";
+@import "content";
+@import "informationboxes";
+@import "form";
+
 * { 
     font-family: 'Alata';
     padding: 0px;
@@ -5,246 +14,14 @@
 
 body {   
     background-image: url(../assets/elementos/Mesa\ de\ trabajo\ 90.png), url(../assets/elementos/Mesa\ de\ trabajo\ 129\ -\ Copy.png), url(../assets/elementos/Mesa\ de\ trabajo\ 125.png), url(../assets/elementos/Mesa\ de\ trabajo\ 103.png),url(../assets/elementos/circulo\ rojo\ puntos.png),url(../assets/elementos/Mesa\ de\ trabajo\ 94.png),url("../assets/Fondos.png");
-    background-color: #cccccc;
+    background-color: $plainwhite;
     background-repeat:no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,repeat;
     background-size: 12%, 11%, 12%, 9%, 11%,8%,cover;
     background-position: -5% 5%, 103% 40%,-3% 55%, 101% -2%, 103% 80%, 0% 98%, center;
     background-attachment: scroll, scroll, scroll,scroll, scroll, scroll, fixed;
 }
 
-/* NavBar */
-@media screen and (max-width: 600px) {
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: #e52524;
-        position: fixed ;
-        top: 0;
-        width: 100vw;
-        text-align: center;
-        height: auto;
-        z-index:100;}
-    
-    .nav__image a {
-        cursor: pointer;}
-    
-    .nav__image img {
-        height: 10vh;
-        width: auto;
-        margin: 2vh 3vh;}
-    
-    .nav__logo {
-        display:flex;
-        height: 15vh;
-        width: auto;
-        margin: 0vh 3vh;}
-    
-    
-    .nav__ul {
-        position:absolute;
-        left: 0;
-        align-items: left;
-        width: 100%;
-        grid-area: nav;
-        display: none; 
-        overflow: hidden;
-        list-style: none;
-        background-color: #e52524;}
-    
-    .navbar:hover .nav__ul {
-        display:flex;
-        flex-direction: column;
-        align-items: left;
-        justify-content: left;
-        width: 100vw;
-        height: auto;
-    }
-    .navbar:focus .nav__ul {
-        display:flex;
-        flex-direction: column;
-        align-items: left;
-        justify-content: left;
-        width: 100vw;
-        height: auto;}
-    
-    .navbar:active .nav__ul {
-        display:flex;
-        flex-direction: column;
-        align-items: left;
-        justify-content: left;
-        width: 100vw;
-        height: auto;}
-    
-    .nav__li {
-        height: auto;
-        font-size: 5vh;}
-    
-    .nav__li a {
-        display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 1vw 2vw;
-        text-decoration: none;
-        align-self: left;}
-    
-    .nav__li a:hover {
-        background-color: #7f2525;
-        color: white;}
-    
-    #nav__li__home {
-        grid-area: home;}
-    
-    #nav__li__pedagogia {
-        grid-area: pedagogia;}
-    
-    #nav__li__comotrabajamos {
-        grid-area: comotrabajamos;}
-    
-    #nav__li__contacto {
-        grid-area: contacto;}
-    
-    #nav__li__plataforma {
-        grid-area: plataforma;}
-    
-    .active {
-        background-color: #980404;
-        color: #F6cd63 ;
-    }}
 
-@media screen and (min-width: 600px) {
-    .nav__image {
-        display: none;}
-    
-    .nav__logo {
-        display:none;}
-    
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        background-color: #e52524;
-        position: fixed ;
-        top: 0;
-        width: 100vw;
-        text-align: center;
-        height: 45px;
-        z-index: 100;}
-    
-    .nav__ul {
-        position:absolute;
-        left: 0;
-        align-items: left;
-        width: 100%;
-        grid-area: nav;
-        display: grid; 
-        grid-template-areas: "home pedagogia comotrabajamos contacto . . . . . . . plataforma";
-        grid-template-rows: auto;
-        grid-template-columns: auto;
-        grid-column-gap: 0vh;
-        overflow: hidden;
-        list-style: none;
-        justify-items: left;
-        z-index: 200;}
-
-    .nav__li a {
-        display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 1vw 2vw;
-        text-decoration: none;
-        align-self: left;}
-
-    .nav__li a:hover {
-        background-color: #7f2525;
-        color: white;}
-
-    #nav__li__home {
-        grid-area: home;}
-
-    #nav__li__pedagogia {
-        grid-area: pedagogia;}
-
-    #nav__li__comotrabajamos {
-        grid-area: comotrabajamos;}
-
-    #nav__li__contacto {
-        grid-area: contacto;}
-
-    #nav__li__plataforma {
-        grid-area: plataforma;
-    }
-
-    .active {
-        background-color: #980404;
-        color: #F6cd63 ;
-    }}
-
-@media screen and (min-width: 820px) {
-    .nav__image {
-        display: none;}
-
-    .nav__logo {
-        display: none;}
-    
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        background-color: #e52524;
-        position: fixed ;
-        top: 0;
-        width: 100vw;
-        text-align: center;
-        height: 45px;}
-
-    .nav__ul {
-        position:absolute;
-        left: 0;
-        align-items: left;
-        width: 100%;
-        grid-area: nav;
-        display: grid; 
-        grid-template-areas: "home pedagogia comotrabajamos contacto . . . . . . . plataforma";
-        grid-template-rows: auto;
-        grid-template-columns: auto;
-        grid-column-gap: 0vh;
-        overflow: hidden;
-        list-style: none;
-        justify-items: left;}
-
-    .nav__li a {
-        display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 1vw 2vw;
-        text-decoration: none;
-        align-self: left;}
-
-    .nav__li a:hover {
-        background-color: #7f2525;
-        color: white;}
-
-    #nav__li__home {
-        grid-area: home;}
-
-    #nav__li__pedagogia {
-        grid-area: pedagogia;}
-
-    #nav__li__comotrabajamos {
-        grid-area: comotrabajamos;}
-
-    #nav__li__contacto {
-        grid-area: contacto;}
-
-    #nav__li__plataforma {
-        grid-area: plataforma;
-    }
-
-    .active {
-        background-color: #980404;
-        color: #F6cd63 ;
-    }}
 
 /* Header */
 @media screen and (max-width: 600px) {
@@ -389,7 +166,7 @@ body {
 /* Content */
 body {
     background-image: url ('Fondos.png');
-    color: #e52524;
+    color: $strongred;
     min-height: 100vh;
     max-width: 100vw;
     display: flex;
@@ -398,7 +175,7 @@ body {
 
 @media screen and (max-width: 600px) {
     p {
-        background-color: rgb(237,235,238);
+        background-color: $whitebackground;
         background-blend-mode: lighten ;
         border-radius: 20px;
         text-align: center;
@@ -413,7 +190,7 @@ body {
         font-size: 2.8vh;}
     
     .home__p {
-        background-color: rgb(237,235,238);
+        background-color: $whitebackground;
         background-blend-mode: lighten ;
         border-radius: 20px;
         text-align: justify;
@@ -434,7 +211,7 @@ body {
 
 @media screen and (min-width: 600px) {
 p {
-    background-color: rgb(237,235,238);
+    background-color: $whitebackground;
     background-blend-mode: lighten ;
     border-radius: 20px;
     text-align: justify;
@@ -450,7 +227,7 @@ p {
     font-size: 2.6vh;}
 
 .home__p {
-    background-color: rgb(237,235,238);
+    background-color:$whitebackground;
     background-blend-mode: lighten ;
     border-radius: 20px;
     text-align: justify;
@@ -498,9 +275,9 @@ p {
     display: flex;    
     min-width: 55vw;
     min-height: 25vh;
-    background:#8f9fdd;
+    background:$pastellightblue;
     opacity: 1;
-    color: #202b58;
+    color: $darkblue;
     padding: 0;
     font-weight: bold;
     position:relative;
@@ -517,9 +294,9 @@ p {
     border-radius: 20px;
     width: 100%;
     height: 100%;
-    background:#8f9fdd;
+    background:$pastellightblue;
     opacity: 1;
-    color: #202b58;
+    color: $darkblue;
     padding: 0;
     font-weight:bolder;
     position:absolute;
@@ -544,7 +321,7 @@ p {
     align-items: center;
     text-align: center;
     align-content:center;
-    background: #4e5d97;
+    background: $middlelightblue;
     border-radius: 20px;
     opacity: 1;
     color: white;
@@ -579,7 +356,7 @@ p {
     align-items: center;
     text-align: center;
     align-content:center;
-    background: #4e5d97;
+    background: $middlelightblue;
     opacity: 1;
     color: white;
     font-weight: normal;
@@ -597,7 +374,7 @@ p {
     align-items: center;
     text-align: center;
     align-content:center;
-    background: #4e5d97;
+    background: $middlelightblue;
     opacity: 1;
     color: white;
     font-weight: normal;
@@ -634,9 +411,9 @@ p {
     display: flex;    
     min-width: 35vw;
     min-height: 25vh;
-    background:#8f9fdd;
+    background:$pastellightblue;
     opacity: 1;
-    color: #202b58;
+    color: $darkblue;
     padding: 0;
     font-weight: bold;
     position:relative;
@@ -653,9 +430,9 @@ p {
     border-radius: 20px;
     width: 100%;
     height: 100%;
-    background:#8f9fdd;
+    background:$pastellightblue;
     opacity: 1;
-    color: #202b58;
+    color: $darkblue;
     padding: 0;
     font-weight:bolder;
     position:absolute;
@@ -680,7 +457,7 @@ p {
     align-items: center;
     text-align: center;
     align-content:center;
-    background: #4e5d97;
+    background: $middlelightblue;
     border-radius: 20px;
     opacity: 1;
     color: white;
@@ -714,7 +491,7 @@ p {
     align-items: center;
     text-align: center;
     align-content:center;
-    background: #4e5d97;
+    background: $middlelightblue;
     opacity: 1;
     color: white;
     font-weight: normal;
@@ -733,7 +510,7 @@ p {
     align-items: center;
     text-align: center;
     align-content:center;
-    background: #4e5d97;
+    background: $middlelightblue;
     opacity: 1;
     color: white;
     font-weight: normal;
@@ -771,9 +548,9 @@ p {
     display: flex;    
     width: 25vw;
     height: 25vh;
-    background:#8f9fdd;
+    background:$pastellightblue;
     opacity: 1;
-    color: #202b58;
+    color: $darkblue;
     padding: 0;
     font-weight: bold;
     position:relative;
@@ -790,9 +567,9 @@ p {
     border-radius: 20px;
     width: 100%;
     height: 100%;
-    background:#8f9fdd;
+    background:$pastellightblue;
     opacity: 1;
-    color: #202b58;
+    color: $darkblue;
     padding: 0;
     font-weight:bolder;
     position:absolute;
@@ -817,7 +594,7 @@ p {
     align-items: center;
     text-align: center;
     align-content:center;
-    background: #4e5d97;
+    background: $middlelightblue;
     border-radius: 20px;
     opacity: 1;
     color: white;
@@ -851,7 +628,7 @@ p {
     align-items: center;
     text-align: center;
     align-content:center;
-    background: #4e5d97;
+    background: $middlelightblue;
     opacity: 1;
     color: white;
     font-weight: normal;
@@ -893,7 +670,7 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     opacity: 1;
-    color: #4e5d97;
+    color: $middlelightblue;
     padding: 1.5%;
     font-weight: bold;
     position:relative;
@@ -912,7 +689,7 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     opacity: 1;
-    color: #4e5d97;
+    color: $middlelightblue;
     padding: 1.5%;
     font-weight: bold;
     position:absolute;
@@ -945,7 +722,7 @@ p {
     background-position: center;
     object-fit: cover;
     opacity: 1;
-    color: #4e5d97;
+    color: $middlelightblue;
     font-weight: normal;
     position:absolute;
     z-index: 100;
@@ -980,7 +757,7 @@ p {
     background-position: center;
     object-fit: cover;
     opacity: 1;
-    color: #4e5d97;
+    color: $middlelightblue;
     font-weight: normal;
     position:absolute;
     z-index: 100;
@@ -1024,10 +801,10 @@ p {
     transform: scale(0.9);}}
 
 .button {
-    background-color: #8596DC;
+    background-color: $lightblue;
     background-blend-mode: overlay;
-	border: 2px solid #8596DC;
-	color: rgb(237,235,238);
+	border: 2px solid $lightblue;
+	color: $whitebackground;
     font-stretch: semi-expanded ;
     letter-spacing: 2;
 	text-align: center;
@@ -1042,8 +819,8 @@ p {
 }
 
 .button:hover, .button:focus, .button:active {
-    background-color: #4e5d97;
-    border: 2px solid #4e5d97 ;
+    background-color: $middlelightblue;
+    border: 2px solid $middlelightblue ;
     cursor: pointer;
     -webkit-animation-name: hvr-pulse;
     animation-name: hvr-pulse;
@@ -1061,7 +838,7 @@ p {
 /* FOOTER Mobile view */
 @media screen and (max-width: 600px) {
     footer {
-        background-color:  #29a992;
+        background-color:  $greenfooter;
         bottom: 0;
         margin: 5% 0 0 0;
         display: flex; 
@@ -1098,7 +875,7 @@ p {
 /* FOOTER Tablet or mid view */
 @media screen and (min-width: 600px) and (max-width: 1200px) {
     footer {
-        background-color:  #29a992;
+        background-color:  $greenfooter;
         bottom: 0;
         margin: 5% 0 0 0;
         padding: 1%;
@@ -1145,7 +922,7 @@ p {
 /* FOOTER web view - full screen*/
 @media screen and (min-width: 1200px) {
     footer {
-        background-color:  #29a992;
+        background-color: $greenfooter;
         bottom: 0;
         margin: 5% 0 0 0;
         display: flex; 
@@ -1201,7 +978,7 @@ p {
 
 
 .footer__gototop a{
-    color: rgb(237,235,238); 
+    color:$whitebackground; 
 }
 
 .footer__gototop:hover {
@@ -1209,7 +986,7 @@ p {
 }
 
 .footer__gototop a:hover {
-    color:#e52524;
+    color:$strongred;
 }
 
 .footer__logo {
@@ -1279,7 +1056,7 @@ p {
         border-radius: 10px;
         margin: 1% 0 3% 0;
         padding: 2% 0 2% 0;
-        background-color: #8f9fdd;
+        background-color: $pastellightblue;
         background-blend-mode:overlay;
         height:auto;
         width:100vw;}
@@ -1321,10 +1098,10 @@ p {
         justify-content: center;
         align-items: center;
         align-self: center;
-        background-color: #4e5d97;
+        background-color: $middlelightblue;
         background-blend-mode: overlay;
-        border: 2px solid #4e5d97;
-        color: #8596DC;
+        border: 2px solid $middlelightblue;
+        color: $lightblue;
         font-stretch: semi-expanded ;
         letter-spacing: 2;
         text-align: center;
@@ -1356,7 +1133,7 @@ p {
         border-radius: 10px;
         margin: 1% 5% 3% 5%;
         padding: 2% 0 2% 0;
-        background-color: #8f9fdd;
+        background-color: $pastellightblue;
         background-blend-mode:overlay;
         height:auto;
         width:90vw;}
@@ -1399,10 +1176,10 @@ p {
         justify-content: center;
         align-items: center;
         align-self: center;
-        background-color: #4e5d97;
+        background-color: $middlelightblue;
         background-blend-mode: overlay;
-        border: 2px solid #4e5d97;
-        color: #8596DC;
+        border: 2px solid $middlelightblue;
+        color: $lightblue;
         font-stretch: semi-expanded ;
         letter-spacing: 2;
         text-align: center;
@@ -1430,7 +1207,7 @@ p {
     border-radius: 10px;
     margin: 1% 17.5% 3% 17.5%;
     padding: 2% 0 2% 0;
-    background-color: #8f9fdd;
+    background-color: $pastellightblue;
     background-blend-mode:overlay;
     height:auto;
     width:65vw;}
@@ -1477,10 +1254,10 @@ input[type=submit] {
     justify-content: center;
     align-items: center;
     align-self: center;
-    background-color: #4e5d97;
+    background-color: $middlelightblue;
     background-blend-mode: overlay;
-    border: 2px solid #4e5d97;
-    color: #8596DC;
+    border: 2px solid $middlelightblue;
+    color: $lightblue;
     font-stretch: semi-expanded ;
     letter-spacing: 2;
     text-align: center;
@@ -1520,7 +1297,7 @@ select,
 textarea {
     width: 100%;
     padding: 12px 20px;
-    border: 1px solid #ccc;
+    border: 1px solid $plainwhite2;
     border-radius: 10px;
     box-sizing:border-box;
     margin-top: 6px;
@@ -1532,7 +1309,7 @@ select,
 textarea {
     width: 100%;
     padding: 12px 20px;
-    border: 1px solid #ccc;
+    border: 1px solid $plainwhite2;
     border-radius: 10px;
     box-sizing:border-box;
     margin-top: 6px;
@@ -1540,8 +1317,8 @@ textarea {
     resize: none;}
 
 input[type=submit]:hover {
-    background-color: #4e5d97;
-    border: 2px solid #4e5d97 ;
+    background-color: $middlelightblue;
+    border: 2px solid $middlelightblue ;
     cursor: pointer;
     transform:scale(1.1);
     -webkit-animation-name: hvr-pulse;

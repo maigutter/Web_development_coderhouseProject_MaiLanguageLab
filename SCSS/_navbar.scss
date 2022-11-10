@@ -1,0 +1,235 @@
+@import "colores";
+@import "mediaview";
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: $strongred;
+        position: fixed ;
+        top: 0;
+        width: 100vw;
+        text-align: center;
+        height: auto;
+        z-index:100;
+            &:hover .nav__ul {
+                display:flex;
+                flex-direction: column;
+                align-items: left;
+                justify-content: left;
+                width: 100vw;
+                height: auto;
+            }
+            &:focus .nav__ul {
+                display:flex;
+                flex-direction: column;
+                align-items: left;
+                justify-content: left;
+                width: 100vw;
+                height: auto;}
+            &:active .nav__ul {
+                display:flex;
+                flex-direction: column;
+                align-items: left;
+                justify-content: left;
+                width: 100vw;
+                height: auto;}
+    }
+    
+    .nav__image {
+        a {
+            cursor: pointer;}
+        img {
+            height: 10vh;
+            width: auto;
+            margin: 2vh 3vh;}
+    }
+    
+    .nav__logo {
+        display:flex;
+        height: 15vh;
+        width: auto;
+        margin: 0vh 3vh;}
+    
+    
+    .nav__ul {
+        position:absolute;
+        left: 0;
+        align-items: left;
+        width: 100%;
+        grid-area: nav;
+        display: none; 
+        overflow: hidden;
+        list-style: none;
+        background-color: $strongred;}
+    
+    
+    .nav__li {
+        height: auto;
+        font-size: 5vh;
+        a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 1vw 2vw;
+            text-decoration: none;
+            align-self: left;
+            &:hover {
+            background-color: $darkred;
+            color: white;}}
+        }
+    
+    #nav__li__home {
+        grid-area: home;}
+    
+    #nav__li__pedagogia {
+        grid-area: pedagogia;}
+    
+    #nav__li__comotrabajamos {
+        grid-area: comotrabajamos;}
+    
+    #nav__li__contacto {
+        grid-area: contacto;}
+    
+    #nav__li__plataforma {
+        grid-area: plataforma;}
+    
+    .active {
+        background-color: $middledarkred;
+        color: $lightmustard ;
+    }}
+
+@media screen and (min-width: 600px) {
+    .nav__image {
+        display: none;}
+    
+    .nav__logo {
+        display:none;}
+    
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: $strongred;
+        position: fixed ;
+        top: 0;
+        width: 100vw;
+        text-align: center;
+        height: 45px;
+        z-index: 100;}
+    
+    .nav__ul {
+        position:absolute;
+        left: 0;
+        align-items: left;
+        width: 100%;
+        grid-area: nav;
+        display: grid; 
+        grid-template-areas: "home pedagogia comotrabajamos contacto . . . . . . . plataforma";
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        grid-column-gap: 0vh;
+        overflow: hidden;
+        list-style: none;
+        justify-items: left;
+        z-index: 200;}
+
+    .nav__li {
+            a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 1vw 2vw;
+            text-decoration: none;
+            align-self: left;
+            &:hover {
+                background-color: $darkred;
+                color: white;}}}
+
+    #nav__li__home {
+        grid-area: home;}
+
+    #nav__li__pedagogia {
+        grid-area: pedagogia;}
+
+    #nav__li__comotrabajamos {
+        grid-area: comotrabajamos;}
+
+    #nav__li__contacto {
+        grid-area: contacto;}
+
+    #nav__li__plataforma {
+        grid-area: plataforma;
+    }
+
+    .active {
+        background-color: $middledarkred;
+        color: $lightmustard ;
+    }}
+
+@media screen and (min-width: 820px) {
+    .nav__image {
+        display: none;}
+
+    .nav__logo {
+        display: none;}
+    
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color:$strongred;
+        position: fixed ;
+        top: 0;
+        width: 100vw;
+        text-align: center;
+        height: 45px;}
+
+    .nav__ul {
+        position:absolute;
+        left: 0;
+        align-items: left;
+        width: 100%;
+        grid-area: nav;
+        display: grid; 
+        grid-template-areas: "home pedagogia comotrabajamos contacto . . . . . . . plataforma";
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        grid-column-gap: 0vh;
+        overflow: hidden;
+        list-style: none;
+        justify-items: left;}
+
+    .nav__li {
+        a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 1vw 2vw;
+        text-decoration: none;
+        align-self: left;
+            &:hover {
+                background-color: $darkred;
+                color: white;}}}
+
+    #nav__li__home {
+        grid-area: home;}
+
+    #nav__li__pedagogia {
+        grid-area: pedagogia;}
+
+    #nav__li__comotrabajamos {
+        grid-area: comotrabajamos;}
+
+    #nav__li__contacto {
+        grid-area: contacto;}
+
+    #nav__li__plataforma {
+        grid-area: plataforma;
+    }
+
+    .active {
+        background-color: $middledarkred;
+        color:$lightmustard;
+    }}
