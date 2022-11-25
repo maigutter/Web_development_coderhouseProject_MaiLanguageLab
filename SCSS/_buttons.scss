@@ -34,21 +34,23 @@
     transform: scale(0.9);}}
 
 .button {
-    background-color: $lightblue;
+    background-color: $darkblue;
     background-blend-mode: overlay;
-	border: 2px solid $lightblue;
+    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+	border: 2px solid $darkblue;
 	color: $whitebackground;
     font-stretch: semi-expanded ;
     letter-spacing: 2;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	width: auto;
-    height: 15vh;
-    padding: 1.5em 1.5em;
+	width: 13vw;
+    height: 12vh;
     border-radius: 15px;
     margin: 2vh;
     font-size: 2.5vh;
+    overflow: hidden;
         &:hover, &:focus, &:active {
         background-color: $middlelightblue;
         border: 2px solid $middlelightblue ;

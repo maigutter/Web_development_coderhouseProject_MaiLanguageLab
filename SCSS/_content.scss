@@ -1,5 +1,71 @@
 @import "colores";
 
+
+@keyframes enterfromleft {
+    from {
+        transform: translateX(-100%);}
+    to {
+        transform: translateX(0%);}}
+
+
+@keyframes enterfromright {
+    from {
+        transform: translateX(100%);}
+    to {
+        transform: translateX(0%);}}
+
+@keyframes centro {
+	0% {
+		opacity: .4;
+	}
+	100% {
+        opacity: 1;
+	}
+}
+
+
+@mixin animationbase {
+    animation-iteration-count: 1;
+    animation-timing-function:linear;
+    animation-delay: 0;
+}
+
+@mixin pcajadetexto {
+    background-color:$whitetextb ;
+    box-shadow: 6px 6px 4px rgba(37, 47, 90, 0.25);
+    border-radius: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    @include animationbase
+    
+}
+
+.textoalcentro{
+    @include pcajadetexto;
+    animation-name: centro;
+    animation-duration: 1s;
+}
+
+.textoalaizquierda {
+    @include pcajadetexto;
+    animation-name: enterfromleft;
+    animation-duration: 3s;
+}
+
+.textoaladerecha {
+    @include pcajadetexto;
+    animation-name: enterfromright;
+    animation-duration: 4s;
+}
+
+.textoalcentrocondelay {
+    @include pcajadetexto;
+    animation-name: centro;
+    animation-duration: 8s;
+}
+
 @media screen and (max-width: 600px) {
     p {
         background-color: $whitebackground;
@@ -29,11 +95,15 @@
         line-height: 1.5;
         word-spacing: 3px ;
         text-indent: 10%;}
+
     .video {
         justify-content: center;
         align-items: center;
         align-self: center;
-        max-width: 100vw;}}
+        max-width: 100vw;}
+    .cajatexto {
+        padding: 0 2vw;
+    }}
 
 
 @media screen and (min-width: 600px) {
