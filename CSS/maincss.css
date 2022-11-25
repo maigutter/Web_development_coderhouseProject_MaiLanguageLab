@@ -92,7 +92,7 @@ body {
       text-decoration: none;
       align-self: left; }
       .nav__li a:hover {
-        background-color: #4e5d97;
+        background-color: #202b58;
         color: white; }
   #nav__li__home {
     grid-area: home; }
@@ -105,7 +105,7 @@ body {
   #nav__li__plataforma {
     grid-area: plataforma; }
   .active {
-    background-color: #4D5EA3;
+    background-color: #151d3f;
     color: white; } }
 
 @media screen and (min-width: 600px) {
@@ -148,7 +148,7 @@ body {
     text-decoration: none;
     align-self: left; }
     .nav__li a:hover {
-      background-color: #4e5d97;
+      background-color: #202b58;
       color: white; }
   #nav__li__home {
     grid-area: home; }
@@ -161,7 +161,7 @@ body {
   #nav__li__plataforma {
     grid-area: plataforma; }
   .active {
-    background-color: #4D5EA3;
+    background-color: #151d3f;
     color: white; } }
 
 @media screen and (min-width: 820px) {
@@ -202,7 +202,7 @@ body {
     text-decoration: none;
     align-self: left; }
     .nav__li a:hover {
-      background-color: #4e5d97;
+      background-color: #202b58;
       color: white; }
   #nav__li__home {
     grid-area: home; }
@@ -215,7 +215,7 @@ body {
   #nav__li__plataforma {
     grid-area: plataforma; }
   .active {
-    background-color: #4D5EA3;
+    background-color: #151d3f;
     color: white; } }
 
 header {
@@ -636,6 +636,7 @@ footer {
     min-width: 55vw;
     min-height: 25vh;
     background: #4e5d97;
+    border: 2px solid #202b58;
     opacity: 1;
     color: white;
     padding: 0;
@@ -652,6 +653,7 @@ footer {
       text-align: center;
       align-content: center;
       background: #4c3a6a;
+      border: 2px solid #202b58;
       opacity: 1;
       color: white;
       font-weight: normal;
@@ -668,6 +670,7 @@ footer {
       text-align: center;
       align-content: center;
       background: #4c3a6a;
+      border: 2px solid #202b58;
       opacity: 1;
       color: white;
       font-weight: normal;
@@ -687,6 +690,7 @@ footer {
     width: 100%;
     height: 100%;
     background: #4e5d97;
+    border: 2px solid #202b58;
     opacity: 1;
     color: white;
     padding: 0;
@@ -705,6 +709,7 @@ footer {
     text-align: center;
     align-content: center;
     background: #4c3a6a;
+    border: 2px solid #202b58;
     border-radius: 20px;
     opacity: 1;
     color: white;
@@ -754,6 +759,7 @@ footer {
     min-width: 35vw;
     min-height: 25vh;
     background: #4e5d97;
+    border: 2px solid #202b58;
     opacity: 1;
     color: white;
     padding: 0;
@@ -770,6 +776,7 @@ footer {
       text-align: center;
       align-content: center;
       background: #4c3a6a;
+      border: 2px solid #202b58;
       opacity: 1;
       color: white;
       font-weight: normal;
@@ -787,6 +794,7 @@ footer {
       text-align: center;
       align-content: center;
       background: #4c3a6a;
+      border: 2px solid #202b58;
       opacity: 1;
       color: white;
       font-weight: normal;
@@ -807,6 +815,7 @@ footer {
     width: 100%;
     height: 100%;
     background: #4e5d97;
+    border: 2px solid #202b58;
     opacity: 1;
     color: white;
     padding: 0;
@@ -825,6 +834,7 @@ footer {
     text-align: center;
     align-content: center;
     background: #4c3a6a;
+    border: 2px solid #202b58;
     border-radius: 20px;
     opacity: 1;
     color: white;
@@ -872,6 +882,7 @@ footer {
     width: 25vw;
     height: 25vh;
     background: #4e5d97;
+    border: 2px solid #202b58;
     opacity: 1;
     color: white;
     padding: 0;
@@ -888,6 +899,7 @@ footer {
       text-align: center;
       align-content: center;
       background: #4c3a6a;
+      border: 2px solid #202b58;
       opacity: 1;
       color: white;
       font-weight: normal;
@@ -908,6 +920,7 @@ footer {
     width: 100%;
     height: 100%;
     background: #4e5d97;
+    border: 2px solid #202b58;
     opacity: 1;
     color: white;
     padding: 0;
@@ -926,6 +939,7 @@ footer {
     text-align: center;
     align-content: center;
     background: #4c3a6a;
+    border: 2px solid #202b58;
     border-radius: 20px;
     opacity: 1;
     color: white;
