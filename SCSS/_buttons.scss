@@ -7,15 +7,32 @@
         justify-content: space-evenly;
         align-content: space-around;
         align-items:center;
-        margin: 10px 10% 25px 10%;}}
+        margin: 10px 10% 25px 10%;}
+    .button {
+        width: 40vw;
+        height: 12vh;}}
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 900px) {
     .buttonsection {
         display: flex;
         flex-direction: row; 
         justify-content: space-evenly;
         align-items:center;
-        margin: 10px 10% 25px 10%;}}
+        margin: 10px 10% 25px 10%;}
+    .button {
+        width: 20vw;
+        height: 12vh;}}
+
+@media screen and (min-width: 900px) {
+    .buttonsection {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-evenly;
+        align-items:center;
+        margin: 10px 10% 25px 10%;}
+    .button {
+	width: 18vw;
+    height: 12vh;}}
 
 @-webkit-keyframes hvr-pulse {
     25% {
@@ -45,8 +62,6 @@
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	width: 13vw;
-    height: 12vh;
     border-radius: 15px;
     margin: 2vh;
     font-size: 2.5vh;

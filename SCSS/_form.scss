@@ -14,6 +14,7 @@
         padding: 2% 0 2% 0;
         background-color: $pastellightblue;
         background-blend-mode:overlay;
+        border: 2px solid $darkblue;
         height:auto;
         width:100vw;
         article {
@@ -52,10 +53,12 @@
         justify-content: center;
         align-items: center;
         align-self: center;
-        background-color: $middlelightblue;
+        background-color: $darkblue;
         background-blend-mode: overlay;
-        border: 2px solid $middlelightblue;
-        color: $lightblue;
+        filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border: 2px solid $darkblue;
+        color: $whitebackground;
         font-stretch: semi-expanded ;
         letter-spacing: 2;
         text-align: center;
@@ -89,6 +92,7 @@
         padding: 2% 0 2% 0;
         background-color: $pastellightblue;
         background-blend-mode:overlay;
+        border: 2px solid $darkblue;
         height:auto;
         width:90vw;
         article {
@@ -128,10 +132,12 @@
         justify-content: center;
         align-items: center;
         align-self: center;
-        background-color: $middlelightblue;
+        background-color: $darkblue;
         background-blend-mode: overlay;
-        border: 2px solid $middlelightblue;
-        color: $lightblue;
+        filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border: 2px solid $darkblue;
+        color: $whitebackground;
         font-stretch: semi-expanded ;
         letter-spacing: 2;
         text-align: center;
@@ -163,6 +169,7 @@
         padding: 2% 0 2% 0;
         background-color: $pastellightblue;
         background-blend-mode:overlay;
+        border: 2px solid $darkblue;
         height:auto;
         width:65vw;
         article {
@@ -204,10 +211,12 @@
         justify-content: center;
         align-items: center;
         align-self: center;
-        background-color: $middlelightblue;
+        background-color: $darkblue;
         background-blend-mode: overlay;
-        border: 2px solid $middlelightblue;
-        color: $lightblue;
+        filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+        box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border: 2px solid $darkblue;
+        color: $whitebackground;
         font-stretch: semi-expanded ;
         letter-spacing: 2;
         text-align: center;
@@ -233,7 +242,7 @@ select,
 textarea {
     width: 100%;
     padding: 12px 20px;
-    border: 1px solid #ccc;
+    border: 2px solid $darkblue;
     border-radius: 10px;
     box-sizing:border-box;
     margin-top: 6px;
@@ -245,7 +254,7 @@ select,
 textarea {
     width: 100%;
     padding: 12px 20px;
-    border: 1px solid $plainwhite2;
+    border: 2px solid $darkblue;
     border-radius: 10px;
     box-sizing:border-box;
     margin-top: 6px;
@@ -257,7 +266,7 @@ select,
 textarea {
     width: 100%;
     padding: 12px 20px;
-    border: 1px solid $plainwhite2;
+    border: 2px solid $darkblue;
     border-radius: 10px;
     box-sizing:border-box;
     margin-top: 6px;
