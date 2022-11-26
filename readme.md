@@ -37,7 +37,7 @@ If you want to know more about the page, read the info on the site 😊 Or use a
 
 ## Perfect! So where can I see the page?
 
-**The link for the page is [here](https://maigutter.github.io/preentrega2_coderhouse/). You can also find it uploaded to the Netlify server [here] (https://mai-language-lab.netlify.app/).**
+**The link for the page is [here](https://maigutter.github.io/preentrega2_coderhouse/). You can also find it uploaded to the Netlify server  [here](https://mai-language-lab.netlify.app/).**
 
 ---
 # 💻🚀 ¡Hola! Bienvenide a mi proyecto 🚀💻
@@ -80,6 +80,6 @@ Si querés saber más de Mai Language Lab, podés leer la info en la web o  cont
 
 ## ¡Perfecto! ¿Y dónde puedo ver la página?
 
-**El link de la página está [acá](https://maigutter.github.io/preentrega2_coderhouse/). También la podés encontrar subida al servidor de Netlify [acá] (https://mai-language-lab.netlify.app/).**
+**El link de la página está [acá](https://maigutter.github.io/preentrega2_coderhouse/). También la podés encontrar subida al servidor de Netlify [acá](https://mai-language-lab.netlify.app/).**
 
 ---
