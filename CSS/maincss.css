@@ -31,7 +31,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: #4D5EA3;
-    opacity: 70%;
+    opacity: 100%;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -67,7 +67,7 @@ body {
     margin: 2vh 3vh; }
   .nav__logo {
     display: flex;
-    height: 15vh;
+    height: 10vh;
     width: auto;
     margin: 0vh 3vh; }
   .nav__ul {

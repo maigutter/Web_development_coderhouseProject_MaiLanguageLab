@@ -6,8 +6,8 @@
         flex-direction: row;
         justify-content: space-between;
         background-color: $baseblue;
-        opacity: 70%;
-        position: fixed ;
+        opacity: 100%;
+        position: fixed;
         top: 0;
         width: 100vw;
         text-align: center;
@@ -48,7 +48,7 @@
     
     .nav__logo {
         display:flex;
-        height: 15vh;
+        height: 10vh;
         width: auto;
         margin: 0vh 3vh;}
     
