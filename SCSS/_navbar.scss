@@ -54,21 +54,20 @@
     
     
     .nav__ul {
-        position:absolute;
+        position:relative;
         left: 0;
         align-items: left;
         width: 100%;
         grid-area: nav;
         display: none; 
-        overflow: hidden;
         list-style: none;
         background-color: $baseblue;
-        opacity: 70%;}
+        opacity: 80%;}
     
     
     .nav__li {
         height: auto;
-        font-size: 5vh;
+        font-size: 3vh;
         a {
             display: inline-block;
             color: white;

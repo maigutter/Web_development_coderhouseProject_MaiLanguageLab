@@ -71,19 +71,18 @@ body {
     width: auto;
     margin: 0vh 3vh; }
   .nav__ul {
-    position: absolute;
+    position: relative;
     left: 0;
     align-items: left;
     width: 100%;
     grid-area: nav;
     display: none;
-    overflow: hidden;
     list-style: none;
     background-color: #4D5EA3;
-    opacity: 70%; }
+    opacity: 80%; }
   .nav__li {
     height: auto;
-    font-size: 5vh; }
+    font-size: 3vh; }
     .nav__li a {
       display: inline-block;
       color: white;
