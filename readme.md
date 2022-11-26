@@ -23,6 +23,8 @@ In the **Third Delivery**, which you can see in the previous commit, you will fi
 
 The version you are currently seeing, the **Final Project**  was redisigned with an UX approach. I am not a UX designer (at least, not yet), but have been trying to apply as many concepts from UX and accesibility as I could. All the images have alt-text and the contrast ratio between the background and text has been checked for accesibility.
 
+It has also been uploaded to the Netlify server. 
+
 **Stay tuned! Much more is coming!**
 
 ## Great! And what is the page about?
@@ -35,7 +37,7 @@ If you want to know more about the page, read the info on the site 😊 Or use a
 
 ## Perfect! So where can I see the page?
 
-**The link for the page is [here](https://maigutter.github.io/preentrega2_coderhouse/).**
+**The link for the page is [here](https://maigutter.github.io/preentrega2_coderhouse/). You can also find it uploaded to the Netlify server [here] (https://mai-language-lab.netlify.app/).**
 
 ---
 # 💻🚀 ¡Hola! Bienvenide a mi proyecto 🚀💻
@@ -60,7 +62,9 @@ La **Primera Preentrega**, la cual podés ver en el primer commit del proyecto, 
 
 En la **Tercera Preentrega**, la cual es el commit anterior a este, vas a encontrar un sitio **totalmente responsivo** en todas sus páginas y para todo tipo de dispositivos, y el uso de **SASS** (**SCSS**) y **SEO**. Esta página era totalmente funcional. Sin embargo, el diseño de la tercera entrega y el que estás viendo ahora es bastante diferente. 
 
-En la versión que estás viendo, la **Entrega Final del Proyecto**, fue totalmente rediseñado con un enfoque UX y de accesibilidad. No soy una diseñadora UX (al menos, no todavía), pero intenté aplicar todos los conceptos de UX y accesibilidad que conocía. Todas las imagenes tienen texto alterno y el contraste del texto y el fondo fue chequeado con parámetros de accesibilidad.
+En la versión que estás viendo, la **Entrega Final del Proyecto**, fue totalmente rediseñado con un enfoque UX y de accesibilidad. No soy una diseñadora UX (al menos, no todavía), pero intenté aplicar todos los conceptos de UX y accesibilidad que conocía. Todas las imagenes tienen texto alterno y el contraste del texto y el fondo fue chequeado con parámetros de accesibilidad. 
+
+Esta entrega fue, además, subida a un servidor. 
 
 
 **¡Estate atente! ¡Se viene mucho más!**
@@ -76,6 +80,6 @@ Si querés saber más de Mai Language Lab, podés leer la info en la web o  cont
 
 ## ¡Perfecto! ¿Y dónde puedo ver la página?
 
-**El link de la página está [acá](https://maigutter.github.io/preentrega2_coderhouse/).**
+**El link de la página está [acá](https://maigutter.github.io/preentrega2_coderhouse/). También la podés encontrar subida al servidor de Netlify [acá] (https://mai-language-lab.netlify.app/).**
 
 ---
